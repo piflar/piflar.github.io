@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piflar</title>
+	<link rel="icon" href="img/icons/favicon.png"></>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/responsive-slider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/style.css" rel="stylesheet">	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- KUL IKONE: http://fontawesome.io/icons/ -->
+	<script src="https://use.fontawesome.com/fa16b372ae.js"></script>
+	
+		
+  </head>
+  <body>
+    <header>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<div class="navbar-brand">
+								<a href="index.html"><h1>Piflar</h1></a>
+							</div>
+						</div>
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" ><a href="index.html">Domov</a></li>
+								
+								<li role="presentation" class="active"><a href="nalozi.html">Naloži</a></li>
+								<li role="presentation" ><a href="gradiva.html">Gradiva</a></li>
+								<li role="presentation"><a href="portal.html">Portal</a></li>
+								<li role="presentation"><a href="kontakt.html">Kontakt</a></li>						
+							</ul>
+						</div>
+					</div>			
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="feature">
+	<form name="nalaganje" id="nalaganje" method="post" enctype="multipart/form-data" action="upload_file.php">
+		<div class="breadcrumbs">
+		
+			<h4>Pred nalaganjem datoteke prosimo da izberete fakulteto, smer, stopnjo in letnik</h4>
+		
+		</div>
+		<div class="container">
+			<div class="row">				
+				
+			<h4>Izberite fakulteto (trenutno podpiramo le EF v Ljubljani in FERI v Mariboru)</h4>
+			<select name="fakulteta">
+			<option value="EF">EF</option>
+			<option value="FERI">FERI</option>
+			</select>
+			<h4>Izberite smer</h4>
+			<select name="smer">
+			<option value="smer_1">nevem na pamet</option>
+			<option value="smer_2">to je treba se naredit</option>
+			</select>
+			<h4>Izberite stopnjo</h4>
+			<select name="stopnja">
+			<option value="1">1.</option>
+			<option value="2">2.</option>
+			</select>
+			<h4>Izberite letnik</h4>
+			<select name="letnik">
+			<option value="01">1.</option>
+			<option value="02">2.</option>
+			<option value="03">3.</option>
+			</select>
+			
+			<br>
+			<label for="file">Izberi datoteko</label>
+			<input type ="file" name="file" id="file" size="80"/>
+			<br>
+			<input type ="submit" value="Naloži" id="u_button" name="u_button" >
+			</div>
+			</form>
+			
+			
+			
+				<div class="col-md-6">
+				<p><center>Ekonomska fakulteta Univerze v Ljubljani</center>
+					</p>
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					
+				</div>
+				<div class="col-md-6">
+				<p><center>Fakulteta za elektrotehniko, računalništvo in informatiko v Mariboru</center>
+					</p>
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					
+					
+				</div>
+			</div>
+			
+		</div>
+		<!--
+		<div class="breadcrumbs">
+			<h4>Example on 4 Columns ( use col-md-3)</h4>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					</p>
+				</div>
+				<div class="col-md-3">
+					<img src="img/4.jpg" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at				
+					</p>
+				</div>
+			</div>		
+		</div>
+		
+		<div class="breadcrumbs">
+			<h4>Example on 3 Columns ( use col-md-4)</h4>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/2.png" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui
+					blandit praesent luptatum zzril delenit augue duis
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/2.png" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui
+					blandit praesent luptatum zzril delenit augue duis
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/2.png" class="img-responsive"alt="" />
+					<p>Duis autem vel eum iriure dolor in hendrerit
+					in vulputate velit esse molestie consequat,
+					vel illum dolore eu feugiat nulla facilisis at
+					vero eros et accumsan et iusto odio dignissim qui
+					blandit praesent luptatum zzril delenit augue duis
+					</p>
+				</div>
+			</div>		
+		</div>
+	</div>
+-->
+	<!--start footer-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="widget">
+												
+						
+						
+						</p>						
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="widget">
+						
+						<ul class="link-list">
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="widget">
+						
+						<ul class="link-list">
+							
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<div class="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="social-network">
+							<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+							<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-12">
+						<div class="copyright">
+							
+                            <!-- 
+                                All links in the footer should remain intact. 
+                                Licenseing information is available at: http://bootstraptaste.com/license/
+                                You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Resi
+                            -->
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--end footer-->
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/responsive-slider.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+	
+		}	) 
+		.init();
+	</script>
+  </body>
+</html>
