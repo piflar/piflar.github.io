@@ -34,7 +34,7 @@ window.fbAsyncInit = function() {
       appId      : '1747518041956208', // FB App ID
       cookie     : true,  // enable cookies to allow the server to access the session
       xfbml      : true,  // parse social plugins on this page
-      version    : 'v2.8' // use graph api version 2.8
+      version    : 'v2.10' // use graph api version 2.8
     });
     
     // Check whether the user already logged in
@@ -91,35 +91,9 @@ function fbLogout() {
   
   
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/sl_SI/sdk.js#xfbml=1&version=v2.10&appId=1747518041956208";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>  
-			<script>
-				window.fbAsyncInit = function() {
-					FB.init({
-					appId      : '1747518041956208',
-					cookie     : true,
-					xfbml      : true,
-					version    : 'v2.10'
-				});
-      
-				FB.AppEvents.logPageView();   
-      
-				};
-
-				(function(d, s, id){
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) {return;}
-				js = d.createElement(s); js.id = id;
-				js.src = "https://connect.facebook.net/en_US/sdk.js";
-				fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-				</script>
-	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>			
+			
+	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>	
+	
     <header>
 		<div class="container">
 			<div class="row">
@@ -144,7 +118,6 @@ function fbLogout() {
 			</div>
 		</div>
 	</header>
-	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
 	<div class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
 	<!-- Responsive slider - START -->
 	<div class="slider">
